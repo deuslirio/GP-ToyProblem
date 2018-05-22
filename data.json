@@ -1,12 +1,11 @@
 {
   "_comment":"coloque uma função que use variáveis x,y,z e w",
-  "function":"x*x",
-  "pop_size":100,
+  "function":"x*y*z*w",
+  "pop_size":500,
   "mut1_rate": 0.1,
   "mut2_rate": 0,
   "cross_rate":0.7,
   "n_examples":100,
-  "max_depth":2,
-  "stop_generation":150
-
+  "max_depth":4,
+  "stop_generation":100
 }
